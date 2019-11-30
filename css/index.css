@@ -168,6 +168,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.topHeader {
+  border-bottom: 1px dashed #B9B8BF;
+}
+.topHeader .headerText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.topHeader nav {
+  width: 25%;
+}
+.topHeader nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +244,14 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .btn {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 0.5em;
+  width: 10rem;
+  background-color: #19807C;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
 }

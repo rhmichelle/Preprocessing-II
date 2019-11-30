@@ -1,1 +1,22 @@
 // Mixins in here
+.button(@width, @color) {
+    display: inline-block;
+    border: 1px solid grey;
+    padding: .5em;
+    width: @width;
+    background-color: @color;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+.flex(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.border(@color) { 
+    border-bottom: 1px dashed @color;
+}
