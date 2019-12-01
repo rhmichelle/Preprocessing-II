@@ -125,7 +125,12 @@
   }
 
   .btn {
-    .button(10rem, #19807C)
+    .button(10rem, #19807C);
+  
+    @media @mobile {
+      width: 100%;
+      padding: 1rem;
+    }
   }
 
 }
