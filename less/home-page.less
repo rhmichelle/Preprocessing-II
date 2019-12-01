@@ -1,5 +1,20 @@
 .home {
 
+  .topHeader {
+    .border(#B9B8BF);
+
+    .headerText {
+        .flex(space-between, center);
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+        padding: @comfortHght;
+    }
+  }
+
+
+
+
   .content-section {
     margin: 30px 0;
     display: flex;
@@ -23,6 +38,9 @@
     }
   }
 
+
+
+
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
@@ -37,6 +55,10 @@
       padding-left: 0;
     }
   }
+
+
+
+
 
   .content-destination {
     width: 75%;
@@ -59,7 +81,8 @@
     }
   }
 
-.btn {
-  .button(10rem, #19807C)
+  .btn {
+    .button(10rem, #19807C)
+  }
+
 }
-}// home
