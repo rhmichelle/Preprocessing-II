@@ -17,6 +17,13 @@
     align-items: @align;
 }
 
+.columnFlex(@justify, @align) {
+    display: flex;
+    flex-direction: column;
+    justify-content: @justify;
+    align-items: @align;
+}
+
 .border(@color) { 
     border-bottom: 1px dashed @color;
 }
