@@ -1,5 +1,12 @@
 .home {
 
+  .container {
+    @media @mobile {
+      max-width: 90%;
+      margin: 0 auto;
+    }   
+  }
+
   .topHeader {
     .border(#B9B8BF);
 
@@ -9,6 +16,10 @@
         width: 100%;
         margin: 0 auto;
         padding: @comfortHght;
+
+        @media @mobile {
+          flex-direction: column;
+        }
     }
   }
 

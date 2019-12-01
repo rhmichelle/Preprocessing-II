@@ -2,13 +2,22 @@
 
 
 
-    nav {
-        width: 25%;
-    
-        ul {
-            .flex(space-between, center);  
+nav {
+    width: 25%;
+
+        @media @mobile {
+            width: 100%;
         }
-    } 
+
+    ul {
+        .flex(space-between, center);  
+
+            @media @mobile {
+                .flex(space-around, center);
+                padding-top: 1rem;
+            }
+    }
+} 
 
 
 
